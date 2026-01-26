@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbi Yossi Turk - YA26 Conference Schedule</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #001f3f 0%, #003366 50%, #001f3f 100%);
+      color: #333;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .header {
+      background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+      border-radius: 16px;
+      padding: 40px 20px;
+      text-align: center;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    }
+    .logo {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+    .header h1 {
+      color: #D4AF37;
+      font-size: 2em;
+      margin-bottom: 10px;
+      text-shadow: 0 2px 10px rgba(212, 175, 55, 0.4);
+    }
+    .header p {
+      color: #4ecdc4;
+      font-size: 1.1em;
+      font-weight: 600;
+    }
+    .day-section {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .day-header {
+      background: #001f3f;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .day-header h2 {
+      font-size: 1.5em;
+      color: #D4AF37;
+    }
+    .day-header p {
+      color: #4ecdc4;
+      font-size: 0.95em;
+    }
+    .schedule-item {
+      background: #f8f9fa;
+      border-left: 4px solid #D4AF37;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .schedule-item:nth-child(even) {
+      background: #f0f9f8;
+      border-left-color: #4ecdc4;
+    }
+    .schedule-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    .time-badge {
+      display: inline-block;
+      background: #001f3f;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 0.9em;
+      margin-bottom: 12px;
+    }
+    .item-title {
+      font-size: 1.3em;
+      font-weight: 700;
+      color: #001f3f;
+      margin-bottom: 8px;
+    }
+    .item-presenter {
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .item-topic {
+      font-weight: 600;
+      color: #001f3f;
+      margin-bottom: 8px;
+    }
+    .item-description {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .item-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .detail-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .detail-label {
+      font-weight: 700;
+      color: #D4AF37;
+    }
+    .prayer-note {
+      background: #fff9e6;
+      border: 2px solid #D4AF37;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 600;
+      color: #001f3f;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .header {
+        padding: 30px 15px;
+      }
+      .header h1 {
+        font-size: 1.5em;
+      }
+      .day-section {
+        padding: 15px;
+      }
+      .schedule-item {
+        padding: 15px;
+      }
+      .item-details {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+          <img src="https://i.postimg.cc/Z5yX9fBQ/Yael-Awards.jpg" alt="Yael Awards" class="logo">
+          <h1>Rabbi Yossi Turk's Personal Schedule</h1>
+          <p>February 2-5, 2026</p>
+        </div>
+
+    <div class="prayer-note">
+      🕍 Prayers in Synagogue: Shacharit @ 7:20 • Mincha & Maariv during meals
+    </div>
+
+    
+            <div class="day-section">
+              <div class="day-header">
+                <div>
+                  <h2>Day 1 - Monday</h2>
+                  <p>February 2, 2026</p>
+                </div>
+              </div>
+          
+              
+                    <div class="schedule-item">
+                    <div class="time-badge">17:30</div>
+                    <div class="item-title">Dinner</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">19:00</div>
+                    <div class="item-title">Opening Session</div>
+                    <div class="item-presenter">Naomi Kovitz, COO of Yael Foundation</div>
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">19:30</div>
+                    <div class="item-title">Forging a Distinctive Jewish Future</div>
+                    <div class="item-presenter">Rabbi Shlomo Farhi</div>
+                    <div class="item-topic">Opening Keynote</div>
+                      <div class="item-description">Embrace your role as the architect of an extraordinary Jewish future. This high-energy keynote celebrates the power of intentional excellence, inviting you to step into the limitless potential of proactive leadership. Discover the spiritual fuel and creative agency needed to elevate every aspect of your school culture and forge a vibrant, distinctive experience that inspires confidence in the generations to come.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Hebrew, Russian, French</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">20:30</div>
+                    <div class="item-title">Planting the Future of Jewish Education</div>
+                    
+                    <div class="item-topic">Tu B'Shvat Activity</div>
+                      <div class="item-description">What does excellence look like in the next decade of Jewish education? This Tu B’Shvat, we’re moving beyond the surface to explore the "ecology" of our schools. Through structured networking and provocative prompts, we will identify the strategic shifts and fresh thinking needed to move our institutions forward. Come ready to share your most exciting pilots, your bravest innovations, and your vision for the "unshaken" values that will ground our students for years to come.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+        </div>
+          
+            <div class="day-section">
+              <div class="day-header">
+                <div>
+                  <h2>Day 2 - Tuesday</h2>
+                  <p>February 3, 2026</p>
+                </div>
+              </div>
+          
+              
+                    <div class="schedule-item">
+                    <div class="time-badge">07:00</div>
+                    <div class="item-title">Breakfast</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">09:00</div>
+                    <div class="item-title">Morning Kickoff</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">09:15</div>
+                    <div class="item-title">Positive Leadership: The Science of Happiness in Jewish Education</div>
+                    <div class="item-presenter">Dr. Tal Ben-Shahar</div>
+                    <div class="item-topic">Keynote</div>
+                      <div class="item-description">Discover how the pursuit of well-being can transform school culture and empower the next generation. This session examines the "Science of Happiness" not just as a feel-good concept, but as a strategic tool for proactive leadership and communal strength.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Hebrew, Russian, French</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">10:15</div>
+                    <div class="item-title">Break</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Main Hall</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">10:45</div>
+                    <div class="item-title">Leveling Up: The Art of Instructional Observation for High-Impact Teaching</div>
+                    <div class="item-presenter">Rabbi Yehoshua Smukler</div>
+                    
+                      <div class="item-description">Discover a user-friendly methodology for classroom observation that prioritises focused, high-impact growth. This simple model equips leaders with practical tools- including a comprehensive observation model to drive student engagement and strengthen teacher practice. Learn how to conduct micro-meetings, leverage your time and maximise your school’s most valuable asset: the talent already within your classrooms.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Practice</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Russian</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">12:00</div>
+                    <div class="item-title">Lunch</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">13:15</div>
+                    <div class="item-title">The Design Studio: Crafting Solutions for School Challenges</div>
+                    
+                    
+                      <div class="item-description">Participants dive into authentic case studies to diagnose the root causes of modern educational hurdles. Through collaborative brainstorming, teams will bridge the gap between theory and practice by generating a diverse range of creative solutions tailored to specific school needs.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">14:30</div>
+                    <div class="item-title">Break</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Main Hall</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">15:00</div>
+                    <div class="item-title">Innovation Lab: From Innovation to Implementation</div>
+                    
+                    
+                      <div class="item-description">Building on the ideas from the previous session, teams transition from ideation to action by selecting their most promising concept for a real-world pilot. This session focuses on strategic execution, culminating in a detailed 30-day roadmap designed to bring their vision to life within a school setting.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">16:15</div>
+                    <div class="item-title">Break</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Main Hall</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">16:45</div>
+                    <div class="item-title">Creative Reframing for Jewish School Enrollment</div>
+                    <div class="item-presenter">Bilana Shakhar</div>
+                    
+                      <div class="item-description">Through shared learning and creative reframing, this workshop empowers Jewish educators to move beyond traditional hurdles and rethink enrollment from the ground up. Participants will identify practical, high-impact strategies to build community interest and ensure sustainable growth for their schools</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Inquire</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> Hebrew</div>
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">18:00</div>
+                    <div class="item-title">Dinner</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">19:45</div>
+                    <div class="item-title">TED Talks: Leadership Lessons in Motion</div>
+                    
+                    
+                      <div class="item-description">What do you do when the playbook fails? This session goes behind the scenes of the decisions that define a career. Hear from leaders as they share raw, personal accounts of the moments they faced impossible trade-offs and no "right" answers. These stories aren't just about strategy—they are about the courage it takes to lead through the unknown. We invite you to listen, reflect, and discover what these moments awaken in your own leadership journey.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Hebrew, Russian, French</div>
+                </div>
+              </div>
+            
+        </div>
+          
+            <div class="day-section">
+              <div class="day-header">
+                <div>
+                  <h2>Day 3 - Wednesday</h2>
+                  <p>February 4, 2026</p>
+                </div>
+              </div>
+          
+              
+                    <div class="schedule-item">
+                    <div class="time-badge">07:00</div>
+                    <div class="item-title">Breakfast</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">09:00</div>
+                    <div class="item-title">Morning Kickoff</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">09:10</div>
+                    <div class="item-title">Owning the Flame: Leading with Courage, Culture, and Conviction</div>
+                    <div class="item-presenter">Raizi Chechik & Avital Chizik-Goldschmidt</div>
+                    <div class="item-topic">Fireside Chat</div>
+                      <div class="item-description">Join us for a thoughtful exploration of what it means to move beyond reactive management and step into leadership rooted in courage and deep conviction. We will discuss how "owning your flame" allows you to shape a vibrant communal culture that doesn't just lead others, but ignites them.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Hebrew, Russian, French</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">10:00</div>
+                    <div class="item-title">Break</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Main Hall</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">10:30</div>
+                    <div class="item-title">From Vision to Results: Scaling School Improvement with EOS</div>
+                    <div class="item-presenter">Rabbi Yoni Fein</div>
+                    
+                      <div class="item-description">Culture doesn’t happen by accident—it is the result of intentional design. In this interactive workshop, we move beyond "values on a wall" to values in action. Using the proven EOS Core Values framework, you will learn to shape a staff culture that is consistent, accountable, and high-performing. Walk away with a practical toolkit, real-school case studies, and an immediate implementation plan to bring your school’s mission to life.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Practice</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Russian</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">11:45</div>
+                    <div class="item-title">Break</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Main Hall</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">12:15</div>
+                    <div class="item-title">Harnessing the Hacker Mindset</div>
+                    <div class="item-presenter">Keren Elazari</div>
+                    <div class="item-topic">Keynote</div>
+                      <div class="item-description">What happens when we view our educational institutions through the lens of a friendly hacker? Keren Elazary demonstrates how the hacker’s drive to optimize and adapt can help schools build distinctive identities that stand the test of time. We close the summit by learning how to harness this innovative energy to ignite our mission and lead with renewed confidence.</div>
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Language:</span> English</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Translation:</span> Hebrew, Russian, French</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">13:15</div>
+                    <div class="item-title">Lunch</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">14:15</div>
+                    <div class="item-title">A Strategic Debrief with the Yael Team</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Ballroom</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">15:00</div>
+                    <div class="item-title">Delivering Excellence to the Next Generation</div>
+                    <div class="item-presenter">Chaya Yosovich, CEO of Yael Foundation</div>
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Ballroom</div>
+                    <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Language:</span> Hebrew</div>
+                  <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Translation:</span> English, French, Russian</div>
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">15:45</div>
+                    <div class="item-title">Preparation for Yael Awards</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Anywhere</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">17:45</div>
+                    <div class="item-title">Depart for Yael Awards at the Hofburg Palace</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Lobby</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">18:00</div>
+                    <div class="item-title">Yael Awards Ceremony</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Hofburg Palace</div>
+                    
+                  
+                </div>
+              </div>
+            
+        </div>
+          
+            <div class="day-section">
+              <div class="day-header">
+                <div>
+                  <h2>Day 4 - Thursday</h2>
+                  <p>February 5, 2026</p>
+                </div>
+              </div>
+          
+              
+                    <div class="schedule-item">
+                    <div class="time-badge">06:00</div>
+                    <div class="item-title">Breakfast</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #D4AF37">Location:</span> Dining Room</div>
+                    
+                  
+                </div>
+              </div>
+            
+                    <div class="schedule-item">
+                    <div class="time-badge">09:00</div>
+                    <div class="item-title">Check-Out</div>
+                    
+                    
+                      
+                      <div class="item-details">
+                      <div class="detail-item"><span class="detail-label" style="color: #4ecdc4">Location:</span> Lobby</div>
+                    
+                  
+                </div>
+              </div>
+            
+        </div>
+          
+  </div>
+</body>
+</html>
