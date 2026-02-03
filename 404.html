@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting to Schedule...</title>
+</head>
+<body>
+    <script>
+        var path = window.location.pathname;
+
+        // Map of the encoded QR path to the actual GitHub filename
+        var redirects = {
+            "jeremy-mosh%C3%A9-zaoui.html": "jeremy-moshé-zaoui.html",
+            "st%C3%A9phanie-attignac-ferel.html": "stéphanie-attignac-ferel.html",
+            "luna-alf%C3%B3n-coriat.html": "luna-alfón-coriat.html",
+            "jos%C3%A9e-vaisbrot.html": "josée-vaisbrot.html",
+            "eitan-k%C3%BCppers-levi.html": "eitan-küppers-levi.html",
+            "zsuzsanna-szil%C3%A1nk.html": "zsuzsanna-szilánk.html"
+        };
+
+        // Loop through the map to find a match
+        for (var broken in redirects) {
+            if (path.toLowerCase().indexOf(broken.toLowerCase()) !== -1) {
+                window.location.replace(redirects[broken]);
+            }
+        }
+    </script>
+    <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+        <p>Loading your schedule...</p>
+        <p>If not redirected, <a href="/ya26-schedules/">click here to return to the list.</a></p>
+    </div>
+</body>
+</html>
